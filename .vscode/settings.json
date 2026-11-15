@@ -1,0 +1,10 @@
+{
+  "liveServer.settings.root": "/frontend",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/api/",
+    "proxyUri": "http://127.0.0.1:3001/api/"
+  }
+}

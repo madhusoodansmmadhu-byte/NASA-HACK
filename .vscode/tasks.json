@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Field Shift: Start backend",
+      "type": "npm",
+      "script": "dev",
+      "path": "backend",
+      "isBackground": true,
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "options": {
+        "env": {
+          "PORT": "3001"
+        }
+      },
+      "problemMatcher": {
+        "owner": "field-shift",
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "endsPattern": "Field Shift is running at http://localhost:3001"
+        }
+      }
+    }
+  ]
+}
